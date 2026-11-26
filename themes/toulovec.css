@@ -228,7 +228,7 @@ div.list.multiple dl {
 /* podáváme.cz menu */
 .denni-menu { min-height: 40rem; max-width: 60rem; margin: 2.5rem auto 0; padding: 0 1rem; }
 .denni-menu.dm-ready { min-height: 0; }
-.denni-menu .dm-menu { max-width: 44rem; }
+.denni-menu .dm-menu { max-width: 44rem; margin: 0 auto; }
 .denni-menu .dm-offer-title { margin: 0; font-weight: bold; }
 .denni-menu .dm-offer-heading { margin: 0 0 1.25rem; font-size: 1em; font-weight: normal; text-align: left; text-transform: none; color: inherit; }
 #content .denni-menu .dm-offer-note { font-weight: normal; margin: -0.75rem 0 1.25rem; }
@@ -249,3 +249,4 @@ div.list.multiple dl {
 .denni-menu .dm-offer:focus-visible { outline: thin dotted #A5130F; outline-offset: 0.5rem; }
 @media (hover: hover) { .denni-menu .dm-tab[aria-selected="false"]:hover { text-decoration: underline; } }
 ul.rezervace { list-style: none; padding: 0; }
+dl.listek dd span:nth-child(2) { flex-shrink: 1; min-width: 0; }
