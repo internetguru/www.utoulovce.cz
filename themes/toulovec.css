@@ -226,15 +226,26 @@ div.list.multiple dl {
   }
 }
 /* podáváme.cz menu */
-.denni-menu { min-height: 40rem; margin-top: 2.5rem; }
+.denni-menu { min-height: 40rem; max-width: 60rem; margin: 2.5rem auto 0; padding: 0 1rem; }
 .denni-menu.dm-ready { min-height: 0; }
+.denni-menu .dm-menu { max-width: 44rem; }
 .denni-menu .dm-offer-title { margin: 0; font-weight: bold; }
-.denni-menu .dm-offer-heading { margin: 0 0 1.25rem; font-size: 1em; font-weight: normal; }
-.denni-menu .dm-offer-note { font-weight: normal; margin: -0.75rem 0 1.25rem; }
+.denni-menu .dm-offer-heading { margin: 0 0 1.25rem; font-size: 1em; font-weight: normal; text-align: left; text-transform: none; color: inherit; }
+#content .denni-menu .dm-offer-note { font-weight: normal; margin: -0.75rem 0 1.25rem; }
 .denni-menu .dm-day { margin: 1.5rem 0 0.75rem; font-size: 1em; font-weight: normal; }
+.denni-menu .dm-today { padding: 0 0.6em; }
 .denni-menu .dm-items { padding: 0; margin: 0; }
 .denni-menu .dm-item { margin-left: 0; font-style: italic; border-bottom: thin solid #ddd; padding: 0 0 0.2em; margin-bottom: 1em; }
 .denni-menu .dm-name, .denni-menu .dm-amount { font-weight: normal; }
-.denni-menu .dm-portion { margin-right: 1em; }
-.denni-menu .dm-legend, .denni-menu .dm-notice-text { font-style: italic; }
+.denni-menu .dm-portion + .dm-amount { margin-left: 0.75em; }
+#content .denni-menu .dm-legend, #content .denni-menu .dm-notice p, #content .denni-menu .dm-edit-note { margin: 0.75rem 0 0; font-style: italic; }
+.denni-menu .dm-offer-heading, .denni-menu .dm-day, .denni-menu .dm-offer-note, .denni-menu .dm-legend, .denni-menu .dm-notice p { padding: 0; }
+.denni-menu .dm-menu--tabs { gap: 1.5rem; }
+.denni-menu .dm-menu--tabs .dm-offer-heading { font-weight: bold; }
+.denni-menu .dm-tabs { display: grid; grid-template-columns: repeat(auto-fit, minmax(5.5rem, 1fr)); gap: 0.25rem; margin: 0; padding: 0.25rem; border-radius: 0.75rem; background: #e2e2e2; }
+.denni-menu .dm-tab { padding: 0.6rem 0.5rem; color: #272727; font-style: normal; font-weight: normal; line-height: 1.25; }
+.denni-menu .dm-tab[aria-selected="true"] { background: #fff; color: #A5130F; font-weight: bold; box-shadow: 0 0.05rem 0.25rem rgba(40, 20, 20, 0.18); }
+.denni-menu .dm-tab:focus-visible { outline: medium solid #A5130F; outline-offset: 0.1rem; }
+.denni-menu .dm-offer:focus-visible { outline: thin dotted #A5130F; outline-offset: 0.5rem; }
+@media (hover: hover) { .denni-menu .dm-tab[aria-selected="false"]:hover { text-decoration: underline; } }
 ul.rezervace { list-style: none; padding: 0; }
