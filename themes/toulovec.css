@@ -1,0 +1,240 @@
+a.logo {
+    padding-right: 1em;
+}
+
+#inputvarform dt {
+    max-width: 10em;
+}
+
+#inputvarform input[type="text"],
+#inputvarform input[type="email"] {
+    max-width: 38em;
+}
+
+a:link {
+}
+
+dl.listek {
+    display: table;
+    margin: 0;
+}
+
+dl.listek dt {
+    margin: 2.5em 0 1.25em 0;
+    margin: 2.5rem 0 1.25rem 0;
+}
+
+dl.listek dd {
+    font-style: italic;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0;
+    border-bottom: thin solid #ddd;
+    padding-bottom: 0.2em;
+    margin-bottom: 1em;
+}
+
+dl.listek dd span:nth-child(2) {
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+dl.listek dd span:first-child {
+  margin-right: 1em;
+}
+
+dl.listek dd span:last-child,
+dl.listek dd span:first-child {
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+}
+
+dl.listek dd span:last-child {
+    margin-left: 1em;
+}
+
+div.list.multiple div {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.list.multiple dl {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 30em;
+  margin: 0;
+  border: 1em solid white;
+  border: 1rem solid white;
+}
+
+.list.multiple {
+  background: none;
+}
+
+@media (min-width: 48em) {
+  div.list.multiple dl {
+    max-width: 50%;
+  }
+}
+
+#content > div:first-child + div {
+  background-color: white;
+  max-width: 62em;
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#content > .section {
+  max-width: 62em;
+  max-width: 62rem;
+  margin: 0 auto;
+  background: white;
+  border-bottom: 1em solid white;
+  border-bottom: 1rem solid white;
+}
+
+#content div.hdesc {
+  background-position: 50% 36%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content > .section > div.hdesc:first-child {
+  border-top: none;
+}
+
+#content > div:first-child > div {
+  background-position: 30% 30%;
+  background-image: url('/files/big/DSC_8355.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vw;
+  margin: 0 auto;
+  max-width: 62em;
+  max-width: 62rem;
+  max-height: 32em;
+  max-height: 32rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+p.mapa object {
+    visibility: hidden;
+}
+
+p.mapa a {
+    display: block;
+    background: url('/files/mapa.jpg') 50% 50% no-repeat;
+}
+
+#content div.hdesc > div h1 {
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+  margin: 0;
+  background: rgb(165, 19, 15);
+  background: rgba(165, 19, 15, 0.91);
+  padding: 1.5em;
+  padding: 1.5rem;
+}
+
+#content > div.hdesc > div p {
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+  margin: 0;
+  background: rgb(39, 39, 39);
+  background: rgba(39, 39, 39, 0.9);
+  padding: 1em 2em;
+  padding: 1rem 2rem;
+}
+
+#header {
+  font-weight: normal;
+  max-width: 62em;
+  max-width: 62rem;
+  margin: 0 auto;
+}
+
+#header .logo object {
+  height: 7em;
+  height: 7rem;
+}
+
+#header li span {
+  font-size: 1em;
+  padding: 0 1em 0 0;
+  padding: 0 1rem 0 0;
+  display: inline-block;
+  vertical-align: 0.2em;
+}
+
+#content {
+  background: white;
+  width: 100%;
+}
+
+@media (max-width: 48em) {
+  div#aside {
+    display: none;
+  }
+}
+
+@media (max-width: 38em) {
+  #content > div:first-child > div {
+    height: auto;
+    display: block;
+  }
+  #content div.hdesc > div h1 {
+    width: auto;
+  }
+}
+
+div.list.multiple div {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.list.multiple dl {
+  box-sizing: border-box;
+}
+
+@media (max-width: 30em) {
+  #header ul.globalmenu li {
+    display: block;
+  }
+}
+
+@media (min-width: 34em) {
+  div.list.multiple dl {
+    width: 43%;
+  }
+}
+/* podáváme.cz menu */
+.denni-menu { min-height: 40rem; margin-top: 2.5rem; }
+.denni-menu.dm-ready { min-height: 0; }
+.denni-menu .dm-offer-title { margin: 0; font-weight: bold; }
+.denni-menu .dm-offer-heading { margin: 0 0 1.25rem; font-size: 1em; font-weight: normal; }
+.denni-menu .dm-offer-note { font-weight: normal; margin: -0.75rem 0 1.25rem; }
+.denni-menu .dm-day { margin: 1.5rem 0 0.75rem; font-size: 1em; font-weight: normal; }
+.denni-menu .dm-items { padding: 0; margin: 0; }
+.denni-menu .dm-item { margin-left: 0; font-style: italic; border-bottom: thin solid #ddd; padding: 0 0 0.2em; margin-bottom: 1em; }
+.denni-menu .dm-name, .denni-menu .dm-amount { font-weight: normal; }
+.denni-menu .dm-portion { margin-right: 1em; }
+.denni-menu .dm-legend, .denni-menu .dm-notice-text { font-style: italic; }
+ul.rezervace { list-style: none; padding: 0; }

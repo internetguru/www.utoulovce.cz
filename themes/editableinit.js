@@ -1,0 +1,1 @@
+require("IGCMS.Editable",function(){IGCMS.Editable.init({unload_msg:"Obsah formuláře byl změněn",emptyform_msg:"Neprovedli jste žádné změny. Chcete přesto odeslat formulář?"})});
