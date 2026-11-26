@@ -244,9 +244,9 @@ div.list.multiple dl {
 #content .denni-menu .dm-legend, #content .denni-menu .dm-notice p, #content .denni-menu .dm-edit-note { margin: 0.75rem 0 0; font-style: italic; }
 .denni-menu .dm-offer-heading, .denni-menu .dm-offer-note, .denni-menu .dm-legend, .denni-menu .dm-notice p { padding: 0; }
 .denni-menu .dm-menu--tabs { gap: 1.5rem; }
-.denni-menu .dm-tabs { display: grid; grid-template-columns: repeat(auto-fit, minmax(5.5rem, 1fr)); gap: 0.25rem; margin: 0; padding: 0.25rem; border-radius: 0.75rem; background: #e2e2e2; }
-.denni-menu .dm-tab { padding: 0.6rem 0.5rem; color: #272727; font-style: normal; font-weight: normal; line-height: 1.25; }
-.denni-menu .dm-tab[aria-selected="true"] { background: #fff; color: #A5130F; font-weight: bold; box-shadow: 0 0.05rem 0.25rem rgba(40, 20, 20, 0.18); }
+.denni-menu .dm-tabs { display: grid; grid-template-columns: repeat(auto-fit, minmax(5.5rem, 1fr)); gap: 0 0.25rem; margin: 0; padding: 0; border-bottom: thin solid #ccc; border-radius: 0; background: none; }
+.denni-menu .dm-tab { margin-bottom: -0.0625rem; padding: 0.6rem 0.5rem; border-bottom: 0.2rem solid transparent; border-radius: 0; color: #272727; font-style: normal; font-weight: normal; line-height: 1.25; }
+.denni-menu .dm-tab[aria-selected="true"] { background: none; border-bottom-color: #A5130F; color: #A5130F; font-weight: bold; }
 .denni-menu .dm-tab:focus-visible { outline: medium solid #A5130F; outline-offset: 0.1rem; }
 .denni-menu .dm-offer:focus-visible { outline: thin dotted #A5130F; outline-offset: 0.5rem; }
 @media (hover: hover) { .denni-menu .dm-tab[aria-selected="false"]:hover { text-decoration: underline; } }
