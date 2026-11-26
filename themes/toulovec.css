@@ -113,7 +113,7 @@ div.list.multiple dl {
 
 #content > div:first-child > div {
   background-position: 30% 30%;
-  background-image: url('/files/big/DSC_8355.jpg');
+  background-image: url('/www.utoulovce.cz/files/big/DSC_8355.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vw;
@@ -137,7 +137,7 @@ p.mapa object {
 
 p.mapa a {
     display: block;
-    background: url('/files/mapa.jpg') 50% 50% no-repeat;
+    background: url('/www.utoulovce.cz/files/mapa.jpg') 50% 50% no-repeat;
 }
 
 #content div.hdesc > div h1 {

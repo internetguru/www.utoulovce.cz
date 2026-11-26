@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Flaticon";
-  src: url("/lib/flaticon/flaticon.eot");
-  src: url("/lib/flaticon/flaticon.eot#iefix") format("embedded-opentype"),
-  url("/lib/flaticon/flaticon.woff") format("woff"),
-  url("/lib/flaticon/flaticon.ttf") format("truetype"),
-  url("/lib/flaticon/flaticon.svg") format("svg");
+  src: url("/www.utoulovce.cz/lib/flaticon/flaticon.eot");
+  src: url("/www.utoulovce.cz/lib/flaticon/flaticon.eot#iefix") format("embedded-opentype"),
+  url("/www.utoulovce.cz/lib/flaticon/flaticon.woff") format("woff"),
+  url("/www.utoulovce.cz/lib/flaticon/flaticon.ttf") format("truetype"),
+  url("/www.utoulovce.cz/lib/flaticon/flaticon.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
