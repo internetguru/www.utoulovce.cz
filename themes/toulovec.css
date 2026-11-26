@@ -230,14 +230,13 @@ div.list.multiple dl {
 .denni-menu.dm-ready { min-height: 0; }
 .denni-menu .dm-menu { max-width: 44rem; margin: 0 auto; }
 .denni-menu .dm-offer-title { margin: 0; font-weight: bold; }
-.denni-menu .dm-offer-head { margin: 0 0 1.25rem; padding: 0.75rem 1rem; border-left: 0.25rem solid #A5130F; background: #f4f4f4; }
+.denni-menu .dm-offer-head { margin: 0 0 1.25rem; }
 .denni-menu .dm-offer-heading { margin: 0; font-size: 1em; font-weight: bold; text-align: left; text-transform: none; color: inherit; }
-.denni-menu .dm-offer-heading::before { content: "Platí"; display: block; color: #A5130F; font-weight: normal; }
 #content .denni-menu .dm-offer-note { font-weight: normal; margin: 0.25rem 0 0; }
-.denni-menu .dm-day { margin: 2rem 0 0.75rem; padding-bottom: 0.35rem; border-bottom: medium solid #272727; font-size: 1em; font-weight: bold; text-align: left; text-transform: none; color: inherit; }
+.denni-menu .dm-day { margin: 2rem 0 0.75rem; padding-bottom: 0.35rem; border-bottom: thin solid #272727; font-size: 1em; font-weight: bold; text-align: left; text-transform: none; color: inherit; }
 .denni-menu .dm-offer-head + .dm-day { margin-top: 0; }
 .denni-menu .dm-day--today { color: #A5130F; border-color: #A5130F; }
-.denni-menu .dm-today { padding: 0 0.6em; border-color: #A5130F; background: #A5130F; color: #fff; font-weight: normal; }
+.denni-menu .dm-today { padding: 0 0.6em; font-weight: normal; }
 .denni-menu .dm-items { padding: 0; margin: 0; }
 .denni-menu .dm-item { margin-left: 0; font-style: italic; border-bottom: thin solid #ddd; padding: 0 0 0.2em; margin-bottom: 1em; }
 .denni-menu .dm-name, .denni-menu .dm-amount { font-weight: normal; }
