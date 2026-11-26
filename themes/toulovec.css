@@ -250,5 +250,10 @@ div.list.multiple dl {
 .denni-menu .dm-tab:focus-visible { outline: medium solid #A5130F; outline-offset: 0.1rem; }
 .denni-menu .dm-offer:focus-visible { outline: thin dotted #A5130F; outline-offset: 0.5rem; }
 @media (hover: hover) { .denni-menu .dm-tab[aria-selected="false"]:hover { text-decoration: underline; } }
+.denni-menu .dm-edit { justify-self: end; margin: 0; padding: 0.25rem 0; border: 0; background: none; color: #595959; font-style: normal; text-decoration: underline dotted; text-underline-offset: 0.2em; }
+.denni-menu .dm-edit:hover { color: #A5130F; text-decoration-style: solid; }
+.denni-menu .dm-edit:focus-visible { outline: medium solid #A5130F; outline-offset: 0.2rem; }
+#content .denni-menu .dm-edit-note { justify-self: end; margin: 0; font-style: normal; }
+#content .denni-menu .dm-edit-note:empty { display: none; }
 ul.rezervace { list-style: none; padding: 0; }
 dl.listek dd span:nth-child(2) { flex-shrink: 1; min-width: 0; }
